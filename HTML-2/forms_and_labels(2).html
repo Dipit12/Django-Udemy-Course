@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Forms and labels </title>
+     </head>
+
+     <body>
+        <!--In the action colunn enter the webpage/site u want the user to redirect to after he clicks on the submit button-->
+        <form action  = "https://www.google.com" method = "get">
+            <!--Bad way to add a label-->
+            <label>
+                Enter Email:
+                <input type = "email" name = "userEmail" placeholder = "Enter your email"> <br>
+                Enter Password:
+                <input type = "submit" name = "Button" value = "Submit">
+            </label>
+            <!--Better way to add a label
+            for and id should be same for label to connect-->
+            <label for = "userInput">
+                <input id = "userInput" name="userInput" placeholder="Enter your name">
+            </label>
+            <br>
+            <label for = "submit">
+                <input id = "submit" type = "submit" value = "Submit">
+            </label>
+        </form>
+     </body>
+</html>
