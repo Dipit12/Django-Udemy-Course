@@ -1,0 +1,16 @@
+When you search something on your web browser, the computer then sends this request as a packet
+which includes the IP address of the website you want
+
+it sends this request through wires or a satellite, which eventually links to wires using your ISP
+
+Your ISP will then re-route the request to the appropriate server location using the IP address as the guide
+
+Once your request reaches the server, it can send back the website you asked for
+
+However a full website with content is too big to send as a single packet of data
+
+The packets come with instructions on how to get back to you and reassemble once they reach you
+
+the packets dont care how they get to your location, all of them take different paths
+once they reach , the reassemble themselves
+all this happens with the speed of light

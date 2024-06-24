@@ -1,0 +1,27 @@
+/* this is a comment in css */
+ 
+/*
+Syntax
+selected_tag{
+    property:value
+}
+*/
+
+h1{
+    color:  purple;
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
+
+p{
+    color: green;
+}
+.special{
+    color: orange;
+}
+li{
+    font-size: medium;
+    color: blue;
+}

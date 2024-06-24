@@ -1,0 +1,18 @@
+.body{
+    background-color: gray;
+    background: url(https://plus.unsplash.com/premium_photo-1673306778968-5aab577a7365?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+div{
+    background-color: blue;
+    border: orange;
+    border-width: thick;
+    border-style:dotted;
+    color:yellow;
+}
+p{
+    color:red; /*Wouldnt apply to the para in div, coz it would follow CSS applied to div*/
+}
+span{
+    background-color: orange;
+    color:green;
+}
