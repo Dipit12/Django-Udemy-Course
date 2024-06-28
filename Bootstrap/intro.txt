@@ -1,0 +1,11 @@
+Bootstrap is a front-end framework
+
+In a framework:
+1. Inversion of control
+2. Default behaviour
+3. Extensibility
+4. Non-modifiable framework
+
+A large part of Bootstrap is not memorization but how to reference the documentation
+A key feature of Bootstrap are its default classes
+You can call these classes to quickly and easily build good looking features for your web applications
