@@ -1,5 +1,13 @@
 //Let's explore some events samples!
 
+// listening for an event looks like this:
+// myvariable.addEventListener(event,func);
+
+// example:
+// var head = document.querySelector("hi")
+// head.addEventListener("click",changeColor)
+    
+
 var headOne = document.querySelector('#one')
 var headTwo = document.querySelector('#two')
 var headThree = document.querySelector('#three')
