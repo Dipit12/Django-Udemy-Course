@@ -14,3 +14,14 @@ The packets come with instructions on how to get back to you and reassemble once
 the packets dont care how they get to your location, all of them take different paths
 once they reach , the reassemble themselves
 all this happens with the speed of light
+
+// to create a new Django project
+1. django-admin startproject project_name
+2. to run the server:
+    python manage.py runserver
+
+// creating a simple application
+    python manage.py startapp app_name
+
+// what is a migration
+a migration allows you to move databases from one design to another, this is also reversible
