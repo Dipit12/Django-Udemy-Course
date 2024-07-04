@@ -1,0 +1,22 @@
+What is Django???
+1. Python web framework
+    - collection of modules packages and libraries designed to speed up development
+2. Server side framework
+    - basically backend side framework
+3. Designed to get you started first
+4. Batteries included
+5. MVT Design pattern
+    - Model - Data access layer
+    -Template - presentation layer
+    -View - business logic
+
+What can you build with Django??
+1.Pinterest
+2.Dropbox
+3.Instagram
+4.Spotify
+5.Udemy
+6.Youtube
+
+Building API's with Django is easy
+    - we use django REST framework
