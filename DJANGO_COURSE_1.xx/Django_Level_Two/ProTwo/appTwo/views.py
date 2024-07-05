@@ -4,7 +4,7 @@ from appTwo.models import User
 # Create your views here.
 
 def index(request):
-    return render(request,'apptwo/index.html')
+    return render(request,'apptwo/base.html')
 
 def users(request):
 

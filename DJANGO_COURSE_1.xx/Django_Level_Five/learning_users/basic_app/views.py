@@ -11,7 +11,7 @@ from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 def index(request):
-    return render(request,'basic_app/index.html')
+    return render(request,'basic_app/base.html')
 
 @login_required
 def special(request):

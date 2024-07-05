@@ -25,3 +25,8 @@ all this happens with the speed of light
 
 // what is a migration
 a migration allows you to move databases from one design to another, this is also reversible
+
+
+// Templates
+this syntax allows you to inject dynamic content that your Django
+app's views will produce, effecting the final HTML

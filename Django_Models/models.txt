@@ -1,0 +1,29 @@
+An essential part of any website is the ability to accept information
+from a user and input it into a databse and retrieve information from a database and use it
+to generate content for the user
+
+we use models to incorporate a database into a Django Project
+Django comes equipped with SQlite
+
+SQLite will work for our simple examples, but django can connect to a variety of SQL engines
+
+To create an actual model, we use a class structure inside of a relevant applications models.py file
+Each attribute of the class represents a fields, which is just like a column name with constrains in SQL
+
+SQL operates has a type of field, such as a charfield, integerfield etc
+
+
+// Steps for connecting a database
+1. python manage.py migrate
+2. python manage.py makemigrations app_name
+3. python manage.py migrate
+
+// To create a superuser(to access the admin dashboard)
+1. python manage.py createsuperuser
+
+// MVT(Model View Template) Paradigm
+1.  In the views.py file we import any models that we will need to use
+2.  Use the view to query the model for data that we will need
+3. Pass results from the model to the template
+4. Edit the template so that it is ready to accept and display the data from the model
+5. Map a URL to the view

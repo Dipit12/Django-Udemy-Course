@@ -11,7 +11,7 @@ from . import models
 # Original Function View:
 #
 # def index(request):
-#     return render(request,'index.html')
+#     return render(request,'base.html')
 #
 #
 
@@ -19,7 +19,7 @@ from . import models
 class IndexView(TemplateView):
     # Just set this Class Object Attribute to the template page.
     # template_name = 'app_name/site.html'
-    template_name = 'index.html'
+    template_name = 'base.html'
 
     def get_context_data(self,**kwargs):
         context  = super().get_context_data(**kwargs)

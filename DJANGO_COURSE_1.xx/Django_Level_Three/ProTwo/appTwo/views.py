@@ -5,7 +5,7 @@ from appTwo.forms import NewUserForm
 # Create your views here.
 
 def index(request):
-    return render(request,'appTwo/index.html')
+    return render(request,'appTwo/base.html')
 
 def users(request):
 
